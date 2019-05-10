@@ -1,0 +1,108 @@
+
+ body {
+     background-color:white;
+     max-width:1500px;
+     height: 50vh;
+     display: block;
+     padding-left: 10em;
+     padding-right: 10em;
+ }
+  
+ .nav {
+     background-color: #f2849e;
+ }
+ .main {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     align-items: center;
+     margin:12px;
+ }
+.logo img {
+    width:100px;
+    height:60px;
+    margin-right:50px;
+    margin-left: 50px;
+    transition: 0.5s ease;
+ }
+ .logo:hover {
+    border:1px solid lightblue;
+ }
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-top: 5px;
+    padding-left:100px;
+    line-height: 30px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color:black;
+    padding:8px 20px;
+    border:1px solid transparent;
+    transition: 0.5s ease;
+}
+a:hover {
+    background-color: aqua;
+    color:black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    background-color:whitesmoke;
+}
+.img {
+    padding:20px;
+}
+
+.stars {
+    display:inline-block;
+    padding:20px
+}
+.stars i {
+    color:orange;
+   
+}
+.para {
+    color:gray;
+    margin:4px;
+    padding-top:2px;
+    padding-bottom:8px;
+}
+
+.para-2 {
+ color:red;
+  margin:8px;
+  padding-top:2px;
+    padding-bottom:8px;
+}
+#cart-btn {
+    background-color:#f2849e ;
+    border:none;
+    color:white;
+    padding:16px 60px 16px 60px;
+    margin:8px;
+    display:inline-block;
+}
+
+#cart-btn:hover {
+    background-color: red;
+    color:black;
+}
+.footer {
+    display:block;
+    margin:50px;
+    color:blue;
+}
+
+.flex {
+    display:block;
+    margin:50px;
+    color:blue;
+}
